@@ -95,6 +95,7 @@ onMounted(() => {
 
 <style lang="scss" scoped>
 .test-page {
+  --van-card-price-color: #{$primary-color};
   height: 100%;
 
   > .filter-bar {

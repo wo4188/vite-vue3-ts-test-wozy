@@ -1,0 +1,45 @@
+$color-blue: #3296fa;
+$color-green: #00b853;
+$color-orange: #ff9f00;
+$color-red: #f55545;
+$color-pink: #eb417b;
+$color-purple: #7432f2;
+
+// $primary-color: $color-blue;
+$primary-color: #eb417b;
+$success-color: $color-green;
+$warning-color: $color-orange;
+$danger-color: $color-red;
+$text-color-1: rgba(31, 31, 31, 1);
+$text-color-2: rgba(31, 31, 31, 0.65);
+$text-color-3: rgba(31, 31, 31, 0.4);
+$text-color-4: rgba(31, 31, 31, 0.3);
+$border-color-1: rgba(31, 31, 31, 0.09);
+
+$font-size-0: 12px;
+$font-size-1: 14px;
+$font-size-2: 16px;
+$font-size-3: 17px;
+$font-size-4: 22px;
+$font-size-5: 24px;
+$font-weight-bold: 600; // 加粗字体粗细
+
+$line-height-0: 16px;
+$line-height-1: 20px;
+$line-height-2: 22px;
+$line-height-3: 24px;
+$line-height-4: 28px;
+$line-height-5: 32px;
+
+$comm-active-opacity: 0.7; // 激活触摸反馈时的不透明度
+$comm-placeholder-color: rgba(31, 31, 31, 0.4);
+$comm-box-shadow: 0px 23px 44px rgba(176, 183, 195, 0.14);
+
+$comm-top-filter-bar-height-1: 28px;
+$comm-bottom-action-bar-height-1: 50px;
+
+/** 公共组件变量 */
+$app-header-height: 44px;
+$app-search-height: 52px;
+$app-tabs-height: 44px;
+$app-tabbar-height: 50px;

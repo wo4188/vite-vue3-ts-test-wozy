@@ -1,0 +1,38 @@
+html:root {
+  // Color Palette
+  --van-white: #fff;
+  --van-red: #{$color-red};
+  --van-blue: #{$color-blue};
+  --van-orange: #{$color-orange};
+  --van-green: #{$color-green};
+
+  // Gradient Colors
+
+  // Component Colors
+  --van-primary-color: #{$primary-color};
+  --van-success-color: var(--van-green);
+  --van-warning-color: var(--van-orange);
+  --van-danger-color: var(--van-red);
+  --van-text-color: #{$text-color-1};
+  --van-active-opacity: #{$comm-active-opacity};
+
+  // Padding
+
+  // Font
+  --van-font-bold: #{$font-weight-bold};
+  --van-base-font: "PingFang SC", "Microsoft Yahei", "Arial", "sans-serif";
+  --van-price-font: "PingFang SC", "Microsoft Yahei", "Arial", "sans-serif";
+
+  // Animation
+
+  // Border
+}
+
+//vant组件变量
+:root:root {
+  // Field 输入框
+  --van-field-label-color: #999;
+
+  // Button 按钮
+  --van-button-default-border-color: #{$border-color-1};
+}

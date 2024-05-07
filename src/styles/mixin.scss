@@ -1,0 +1,40 @@
+/* 全局样式 混入 */
+
+// 单行文本省略(元素需设置固定宽度)
+@mixin singleline-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+// 多行文本省略(固定行数)
+@mixin multiline-ellipsis($rowCount: 2) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $rowCount;
+
+    /* 强制 长文本断句换行 */
+    word-break: break-all;
+}
+
+// div下划线(自动居中)
+@mixin box-underline($color: $border-color-1, $width: 100%, $height: 1px, $top: 100%, $scaleY: 0.5) {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: $top;
+
+        content: "";
+        width: $width;
+        height: $height;
+        margin: 0 auto;
+
+        background-color: $color;
+        
+        transform: scaleY($scaleY);
+    }
+}

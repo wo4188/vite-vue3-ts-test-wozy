@@ -7,20 +7,16 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    AppTabs: typeof import('./src/components/MyTabs.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     LazyLoadList: typeof import('./src/components/lazyLoadList/index.vue')['default']
     MyCoupon: typeof import('./src/components/MyCoupon.vue')['default']
     MyTabs: typeof import('./src/components/MyTabs.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    VanButton: typeof import('vant/es')['Button']
     VanCard: typeof import('vant/es')['Card']
-    VanImage: typeof import('vant/es')['Image']
     VanList: typeof import('vant/es')['List']
     VanPullRefresh: typeof import('vant/es')['PullRefresh']
     VanTab: typeof import('vant/es')['Tab']
     VanTabs: typeof import('vant/es')['Tabs']
-    VanTag: typeof import('vant/es')['Tag']
   }
 }

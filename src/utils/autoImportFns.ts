@@ -30,3 +30,9 @@ export function simpleFormatDate(val?: string | Date, formatStr: string = 'YYYY-
 
   return dayjs(val).format(formatStr);
 }
+
+export function nextTickRaf(cb: FrameRequestCallback) {
+  return requestAnimationFrame(() => {
+    requestAnimationFrame(cb);
+  });
+}
